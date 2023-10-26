@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const MacbookAir2Child = styled.img`
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -100px;
+  left: -300px;
   width: 915px;
   height: 960px;
 `;
@@ -18,7 +18,7 @@ const MacbookAir2Item = styled.img`
 const MacbookAir2Inner = styled.img`
   position: absolute;
   top: 361px;
-  left: 699px;
+  left: 800px;
   border-radius: var(--br-mini);
   width: 480px;
   height: 263px;
@@ -27,7 +27,7 @@ const MacbookAir2Inner = styled.img`
 const RectangleIcon = styled.img`
   position: absolute;
   top: 685px;
-  left: 701px;
+  left: 800px;
   border-radius: var(--br-mini);
   width: 480px;
   height: 263px;
@@ -35,19 +35,20 @@ const RectangleIcon = styled.img`
 `;
 const HeaderChild = styled.div`
   position: absolute;
+  display: flex;
   top: 0px;
   left: 0px;
   background-color: var(--color-white);
   border-bottom: 4px solid var(--color-burlywood-100);
   box-sizing: border-box;
-  width: 1280px;
+  width: 2000px;
   height: 218px;
   overflow: hidden;
 `;
 const HeaderItem = styled.img`
   position: absolute;
   top: 165px;
-  left: 224px;
+  left: 380px;
   width: 153px;
   height: 52px;
   mix-blend-mode: darken;
@@ -55,7 +56,7 @@ const HeaderItem = styled.img`
 const Information = styled.b`
   position: absolute;
   top: 175px;
-  left: 244px;
+  left: 400px;
   display: inline-block;
   color: var(--color-white);
   width: 218px;
@@ -64,7 +65,7 @@ const Information = styled.b`
 const Kursplan = styled.b`
   position: absolute;
   top: 175px;
-  left: 698px;
+  left: 750px;
   display: inline-block;
   width: 100px;
   height: 33px;
@@ -72,7 +73,7 @@ const Kursplan = styled.b`
 const Recensioner = styled.b`
   position: absolute;
   top: 175px;
-  left: 897px;
+  left: 900px;
   display: inline-block;
   width: 122px;
   height: 21px;
@@ -80,7 +81,7 @@ const Recensioner = styled.b`
 const Behrighet = styled.b`
   position: absolute;
   top: 175px;
-  left: 479px;
+  left: 600px;
   display: inline-block;
   width: 108px;
   height: 33px;
@@ -291,8 +292,8 @@ const L = styled.b`
 `;
 const EllipseParent = styled.div`
   position: absolute;
-  top: 16px;
-  left: 561px;
+  top: 20px;
+  left: 650px;
   width: 158px;
   height: 139px;
   font-size: var(--font-size-xs);
@@ -301,7 +302,7 @@ const EllipseParent = styled.div`
 const WeCreate = styled.div`
   position: absolute;
   top: 78px;
-  left: 200px;
+  left: 250px;
   font-size: var(--font-size-21xl);
   display: inline-block;
   width: 265px;
@@ -310,7 +311,7 @@ const WeCreate = styled.div`
 const ProblemSolvers = styled.div`
   position: absolute;
   top: 75px;
-  left: 815px;
+  left: 950px;
   font-size: var(--font-size-21xl);
   display: inline-block;
   width: 415px;
@@ -318,10 +319,10 @@ const ProblemSolvers = styled.div`
 `;
 const Header = styled.div`
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100px;
-  height: 218px;
+  // top: 0px;
+  // left: 0px;
+  // width: 100px;
+  // height: 218px;
 `;
 const FooterChild = styled.div`
   position: absolute;
@@ -330,17 +331,18 @@ const FooterChild = styled.div`
   background-color: var(--color-darkslategray);
   border-top: 4px solid #5f5445;
   box-sizing: border-box;
-  width: 1280px;
+  width: 2000px;
   height: 180px;
   overflow: hidden;
 `;
 const OmFrontendSchool = styled.p`
   margin: 0;
+
 `;
 const OmFrontendSchoolContainer = styled.b`
   position: absolute;
   top: 43px;
-  left: 196px;
+  left: 250px;
   display: inline-block;
   width: 211px;
   height: 23px;
@@ -352,7 +354,7 @@ const IconSocialLinkedin = styled.img`
   top: 40.51%;
   right: 15.55%;
   bottom: 48.11%;
-  left: 82.89%;
+  left: 1070px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -360,7 +362,7 @@ const IconSocialLinkedin = styled.img`
 const Klagomlshantering = styled.b`
   position: absolute;
   top: 43px;
-  left: 604px;
+  left: 650px;
   display: inline-block;
   width: 206px;
   height: 24px;
@@ -372,7 +374,7 @@ const VectorIcon = styled.img`
   top: 40.51%;
   right: 19.38%;
   bottom: 48.39%;
-  left: 79.06%;
+  left: 1105px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -384,7 +386,7 @@ const VectorIcon1 = styled.img`
   top: 40.51%;
   right: 12.11%;
   bottom: 48.39%;
-  left: 86.33%;
+  left: 1140px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -396,7 +398,7 @@ const VectorIcon2 = styled.img`
   top: 40.51%;
   right: 23.2%;
   bottom: 48.39%;
-  left: 75.23%;
+  left: 80%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -404,7 +406,7 @@ const VectorIcon2 = styled.img`
 const Feschoolgmailcom = styled.b`
   position: absolute;
   top: 109px;
-  left: 963px;
+  left: 1000px;
   font-size: 16px;
   display: inline-block;
   width: 176px;
@@ -413,7 +415,7 @@ const Feschoolgmailcom = styled.b`
 const OmOss = styled.b`
   position: absolute;
   top: 78px;
-  left: 196px;
+  left: 250px;
   display: inline-block;
   width: 74px;
   height: 25px;
@@ -421,17 +423,17 @@ const OmOss = styled.b`
 const VrtUtbildningskoncept = styled.b`
   position: absolute;
   top: 115px;
-  left: 196px;
+  left: 250px;
 `;
 const JobbaHosOss = styled.b`
   position: absolute;
   top: 79px;
-  left: 604px;
+  left: 650px;
 `;
 const Dataskydd = styled.b`
   position: absolute;
   top: 115px;
-  left: 604px;
+  left: 650px;
 `;
 const EmojiHerbIcon1 = styled.img`
   position: absolute;
@@ -452,11 +454,9 @@ const EmojiHerbIcon2 = styled.img`
   top: 62.15%;
   right: 0.36%;
   bottom: 0.11%;
-  left: 95.55%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  left: 110.55%;
 `;
+
 const Footer = styled.div`
   position: absolute;
   top: 1087px;
@@ -571,7 +571,7 @@ const R400Container = styled.div`
 const Content = styled.div`
   position: absolute;
   top: 271px;
-  left: 118px;
+  left: 200px;
   width: 470px;
   height: 762px;
   font-size: var(--font-size-mini);
