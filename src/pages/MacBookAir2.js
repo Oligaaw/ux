@@ -320,7 +320,7 @@ const Header = styled.div`
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 1280px;
+  width: 100px;
   height: 218px;
 `;
 const FooterChild = styled.div`
@@ -610,7 +610,7 @@ const MacBookAir2 = () => {
         <EllipseParent>
           <GroupChild />
           <GroupItem />
-          <IconLaurelCrown alt="" src="/-icon-laurel-crown.svg" />
+          <IconLaurelCrown alt="" src="/vector3.svg" />
           <EmojiHerbIcon alt="" src="/-emoji-herb.svg" />
           <Div>{`</>`}</Div>
           <F>F</F>
