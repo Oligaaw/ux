@@ -9,13 +9,11 @@ export default createGlobalStyle`
 /* fonts */
 --font-bona-nova: 'Bona Nova';
 --font-bowlby-one: 'Bowlby One';
---font-inter: Inter;
 
 /* font sizes */
 --font-size-mini: 15px;
 --font-size-xl: 20px;
 --font-size-21xl: 40px;
---font-size-11xl: 30px;
 --font-size-xs: 12px;
 
 /* Colors */
@@ -23,7 +21,6 @@ export default createGlobalStyle`
 --color-white: #fff;
 --color-burlywood-100: #e1b674;
 --color-burlywood-200: #e1b574;
---color-black: #000;
 
 /* Border radiuses */
 --br-mini: 15px;
